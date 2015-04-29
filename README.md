@@ -25,6 +25,15 @@ var msg = sayHey("Bart");
 console.log(msg);
 ```
 
+#### Run this using node
+`$ node js/sayHelloGenerator.js`  
+
+#### Run in the browser.
+
+Modify index.html to use this file.
+
+Step through the code using the browser's debugger.
+
 ## Lab.
 
 1. Write the Scope diagram built during Compilation.
@@ -69,6 +78,16 @@ In this file, `js/makeMultipliers.js` create two multiply functions *(same as ab
 5. Create a function that will multiply 13 to it's argument.
 6. Use these multiply functions and log out results.
 
+
+#### Run this using node
+`$ node js/makeMultipliers`  
+
+#### Run in the browser.
+
+Modify index.html to use this file.
+
+Step through the code using the browser's debugger.
+
 ## Demo
 
 **Create a file `js/show_name_closure.js`**
@@ -99,3 +118,12 @@ We are invoking the function returned immediately:
 ## Lab
 
 Re-write the last lab to use an immediately invoke functions.
+
+#### Run this using node
+`$ node js/makeMultipliers.js`  
+
+#### Run in the browser.
+
+Modify index.html to use this file.
+
+Step through the code using the browser's debugger.
