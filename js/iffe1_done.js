@@ -6,7 +6,7 @@ function doIt(){
 // Run doIt every two seconds.
 setInterval(doIt, 2000);
 
-// Create a IFFE to prevent 
+// Create a IFFE to prevent
 // name collisions between doIt functions.
 (function(){
   // declare msg in IFFE scope
